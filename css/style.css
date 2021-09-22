@@ -1,5 +1,6 @@
 h1{
-    color: green;
+    color: green;`
+    font-size: 20px;
 }
 p{
     color: indigo;
@@ -7,4 +8,8 @@ p{
 button{
     color: black;
     background-color: lightseagreen;
+}
+.mijnAfbeelding{
+    width: 451px;
+    height: 450px;
 }
