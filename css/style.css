@@ -1,15 +1,182 @@
-h1{
-    color: green;`
-    font-size: 20px;
+*{
+    margin: 0px;
+    padding: 0px;
 }
-p{
-    color: indigo;
+
+.bigimage{
+    width: 100%;
+    height: 100%;
+    position:relative;
+    background-image:url("https://images.alphacoders.com/935/935315.png");
+    background-size: cover;
+    counter-reset:initial;
 }
-button{
-    color: black;
-    background-color: lightseagreen;
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center ;
+    background-color: rgba(0, 0, 0, 0.5);
+
+
 }
-.mijnAfbeelding{
-    width: 451px;
-    height: 450px;
+
+.Abdo{
+    color:skyblue;
+    background-image:url("https://images.alphacoders.com/935/935315.png");
 }
+
+.top{
+    text-align: center;
+    margin-top: 75px;
+    font-size: 25px;
+    margin-left: 5px;
+}
+.ol{
+    text-align: center ;
+    font-size: 19px;
+    color:wheat;
+    list-style-position: inside;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.programma{
+    text-align:center;
+    font-size: 25px;
+    margin-top:50px;
+    margin-left: 5px;
+}
+.lijst{
+    text-align: left;
+    font-size: 19px;
+    color:wheat;
+    list-style-position: inside;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+.feedback{
+    color: yellowgreen;
+    margin-top: 10px;
+
+}
+.kill{
+    color:orange;
+}
+.kort{
+    text-align:center;
+    font-size: 25px;
+    margin-top:25px;
+    color: white;
+    margin-left: 5px;
+    
+}
+.paragraaf{
+    text-align:left;
+    font-size: 19px;
+    margin-top:25px;
+    color: wheat;
+    margin-left: 7px;
+}
+.eerste {
+    font-size: 30px;
+    margin-top:25px;
+    color:yellow
+}
+.photo1{
+    margin-top:15px;
+}
+.link1{
+    font-size: 30px;
+    margin-top:25px;
+    color:yellow
+
+}
+.link{
+    font-size: 15px;
+    margin-top:50px;
+    color:blueviolet;
+}
+.eigenfoto1{
+
+ font-size: 30px;
+    margin-top:25px;
+    color:yellow;
+}
+.eigenfoto{
+    height: 40%;
+    width: 40%;
+    margin-top:50px;
+}
+.layout{
+    font-size: 30px;
+    margin-top:25px;
+    color:yellowgreen;
+
+}
+.hr{
+    margin-top:20px;
+}
+.layout1{
+    height: 40%;
+    width: 40%;
+    margin-top:50px;
+
+}
+.footer{
+    width: 100%;
+    height: 130%;
+    position:relative;
+    background-image:url("https://images.alphacoders.com/935/935315.png");
+    background-size: cover;
+    counter-reset:initial;
+    text-align: center;
+
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .pra{
+    text-align:center;
+    font-size: 13px;
+    margin-top:25px;
+    color: wheat;
+    margin-left: 7px;
+  }
+  .feedback2{
+      text-align: center;
+      font-size: 16px;
+      list-style-position: inside;
+      color: wheat;
+  }
